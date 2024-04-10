@@ -8,7 +8,7 @@
 
 var x = 40;
 var y = 6; 
-var z = 4;
+var z = 6;
 
 
 
