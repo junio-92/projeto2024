@@ -15,8 +15,8 @@ d = 6
 
 // OR ||
 
-//console.log((j>d) || (d<j))
-//console.log((j<d) || (d<j))
+console.log((j>d) || (d<j))
+console.log((j<d) || (d<j))
 
 
 // NOT !  
@@ -24,7 +24,7 @@ d = 6
 //console.log((j<d) &&(d>j))  LOGO APOS COLOCAR A INTERROGAÇÃO O RESULTADO SERA INVERTIDO,
 // POR EXEMPLO: UM RESULTADO QUE ERA TRUE AGORA SERA FALSE
 
-console.log(!(j<d) &&(d>j))
+// console.log(!(j<d) &&(d>j))
 
 
 

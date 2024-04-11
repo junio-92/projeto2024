@@ -1,4 +1,4 @@
-//////// EXTRUTURA CONDICIONAIS //////////
+//////// ESTRUTURAS CONDICIONAIS //////////
 
 // IF
 
@@ -30,8 +30,8 @@ y = 80
 
 
 
-j = 100
-k = 1000
+j = 10
+k = 100
 
 if (j > k){
     console.log("Bom")
