@@ -15,6 +15,6 @@ do{
     console.log(j);
     j = j+2
 
-}while(j<11);
+}while(j<22);
 
 

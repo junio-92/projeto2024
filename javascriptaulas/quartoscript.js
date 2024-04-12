@@ -24,7 +24,7 @@
 //}
 
 
-for (j = 0; j <20 ; j++){
+for (j = 0; j <21 ; j++){
     if(j==4){
         continue;
     }
