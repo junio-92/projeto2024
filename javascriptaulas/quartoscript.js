@@ -1,4 +1,4 @@
-/////////// ESTRUTURAS DE REPETIÇÃO FOR /////////
+/////////// ESTRUTURA DE REPETIÇÃO FOR /////////
 
 
 

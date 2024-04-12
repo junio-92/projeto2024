@@ -21,7 +21,7 @@ var j = 0;
 do {
     console.log(j);
     j++;
-} while (j<10);
+} while (j<11);
 
 
 // var j = 0;
