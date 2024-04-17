@@ -8,9 +8,9 @@ var paragrafo = document.getElementsByTagName("p")
 console.log(paragrafo[1].innerText)
 
 
-// getElementByClassName
+// getElementsByClassName
 var escrito = document.getElementsByClassName("escrita");
-escrito[2].style.color ="red";
+escrito[1].style.color ="red";
 
 // querySelectorAll
 
