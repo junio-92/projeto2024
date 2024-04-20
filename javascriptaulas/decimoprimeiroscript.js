@@ -17,7 +17,7 @@ ctx.fillRect(x, y, largura, altura)
 //ctx.fillStyle = "rgba(0,0,200,0.5"  caso queira deixar a imagem transparente se utiliza está função.
 
 ctx.fillStyle = "green"
-ctx.fillRect(30, 30, 100,100)
+ctx.fillRect(20, 30, 100,100)
 
 
 ctx.beginPath();
