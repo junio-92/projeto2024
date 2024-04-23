@@ -22,5 +22,5 @@ function animado(){
 
 }
 
-setInterval(animado, 10)
+setInterval(animado, 100)
 

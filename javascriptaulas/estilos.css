@@ -6,3 +6,17 @@ div{
     background-color: beige;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+body#muse{
+    background-color: #00008B;
+}
+
+canvas#musical{
+    color: aqua;
+}
+
+h1#uvd{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #00FF00;
+}
