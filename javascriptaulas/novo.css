@@ -2,3 +2,8 @@ canvas{
     border: 1px dashed blue;
 
 }
+
+canvas#andar{
+    border: 1px dashed black;
+
+}
