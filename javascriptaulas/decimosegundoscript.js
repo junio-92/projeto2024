@@ -18,9 +18,9 @@ let altura = 100;
 
 function animado(){
     ctz.clearRect(0, 0, canvas.width,canvas.heigth)
-    ctz.fillRect(x++, y++, largura++, altura++)
+    ctz.fillRect(x, y, largura, altura++)
 
 }
 
-setInterval(animado, 100)
+setInterval(animado, 10)
 
