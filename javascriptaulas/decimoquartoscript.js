@@ -2,10 +2,16 @@
 
 let xhr = new XMLHttpRequest();
 
-xhr.open("GET", "https://jsonplaceholder.typicode.com/todos");
-xhr.send();
+
 
 let i = 0;
+
+var doc = {
+    "userId":1,
+    "title":"Olá",
+    "body":"Olá Junio Dias de Oliveira"
+
+}
 
 xhr.onreadystatechange = ()=>{
     let pronto = xhr.readyState;
@@ -19,3 +25,8 @@ xhr.onreadystatechange = ()=>{
     console.log("Código de resposta:", estado);
     console.log(resposta);
 }
+
+
+
+xhr.open("POST", "https://jsonplaceholder.typicode.com/posts");
+xhr.send(doc);
