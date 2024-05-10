@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aitimética</title>
+    <style>
+        body{
+            font: normal 18pt Impact 
+        }
+        input{
+            font: normal  18pt arial
+        }
+    </style>
+</head>
+<body>
+    <h1>Efetuando uma soma</h1>
+
+    <input type="number" name="tx1" id="tx1"> +
+    <input type="number" name="tx2" id="tx2">
+    <input type="button" value="somar" onclick="somar()">
+
+    <div id="res">Resultado da operação</div>
+
+    <script>
+        function somar() {
+
+            var tj1 = window.document.getElementById('tx1')
+            var tj2 = window.document.querySelector('input#tx2')
+            let res = window.document.getElementById('res')
+            let j1 = Number(tj1.value)
+            let j2 = Number(tj2.value)
+            let s = j1+j2
+            res.innerHTML = `A soma entre ${j1} e ${j2} é igual a ${s}`
+
+
+
+            
+        }
+    </script>
+</body>
+</html>
