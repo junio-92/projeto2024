@@ -1,45 +1,24 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD PHP</title>
+    <title>Document</title>
 </head>
 <body>
-    <?php
-    $conexao = mysqli_connect("localhost", "root", "", "teste");
-    //CHECAR CONEXAO
+    <div>
 
-    if (!$conexao) {
-        echo"NÃO CONECTADO";
-    }
+        <form action="crud.php" method="post">
+            <label for="fname">Nomes</label><br>
+            <input type="text" id="nome" name="nome" value="Junio"><br>
+            <label for="lname">Email</label><br>
+            <input type="email" id="email" name="email" value="email"><br><br>
+            <label for="lname">CPF</label><br>
+            <input type="text" id="cpf" name="lname" value="cpf"><br><br>
+            
+            <input type="submit" value="Submit">
+          </form>
 
-    echo"CONECTADO AO BANCO>>>>>";
-
-
-    //RECONHECER CPF EXIXTENTE
-    $cpf = $_POST ['cpf'];
-    $cpf = mysqli_real_escape_string($conexao, $cpf);
-    $cpf = "SELECT cpf FROM tste.dados WHERE cpf='$cpf";
-    $retorno = mysqli_query($conexao, $sql);
-
-    if(mysqli_num_rows($retorno)>0){
-        echo"CPF JÁ CADASTRADO!<br>";
-        
-    }else{
-        $nome = $_POST['nome'];
-        $email = $_POST['email'];
-        $cpf = $_POST['cpf'];
-
-        $sql = "INSERT INTO teste.dados(nomeemail,cpf) values('$nome', '$email', '$cpf)";
-        $resultado = mysqli_query($conexao,$sql);
-        
-        echo"CADASTRO REALIZADO<BR>";
-
-    }
-        
-
-
-    ?>    
+    </div>
 </body>
 </html>
