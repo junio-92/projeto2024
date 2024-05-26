@@ -1,6 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Cadastro efetuado com sucesso</h1>
+    
+</body>
+</html>
+
 <?php
 
-$dbhost = 'Localhost';
+$dbhost = 'localhost';
 $Username = 'root';
 $dbPassword = '';
 $dbName = 'cadastramento';
@@ -11,6 +31,6 @@ if ($conexao->connect_errno)
  {
     echo "Erro";
 }else{
-    echo "Conectado";
+    echo "";
 }
-?>
+
