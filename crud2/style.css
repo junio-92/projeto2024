@@ -1,0 +1,36 @@
+body{
+    background-color: blueviolet;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form_cd{
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    background-color: silver;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+
+}
+
+form input[type="submit"]{
+    width: 190;
+    padding: 5px;
+    margin-top: 10px;
+    outline: 0;
+    cursor: pointer;
+}
+
+
+.form_cd h1{
+    color: green;
+}

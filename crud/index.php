@@ -1,21 +1,23 @@
 
 <?php
 
+
+
+
 if (isset($_POST['submit'])) {
 
-include_once('crud.php');
+    include_once('crud.php');
+    
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $cpf = $_POST['cpf'];
+    
+    
+    $result = mysqli_query($conexao, "SELECT * FROM  cadastre(nome,email,cpf) VALUES ('$nome', '$email', '$cpf')") ;
+    
+}    
 
-$nome = $_POST['nome'];
-$email = $_POST['email'];
-$cpf = $_POST['cpf'];
 
-
-$result = mysqli_query($conexao, "INSERT INTO cadastre(nome,email,cpf) VALUES ('$nome', '$email', '$cpf')") ;
-
-
-
-
-}
 
 ?>
 
