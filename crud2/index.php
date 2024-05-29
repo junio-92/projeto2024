@@ -1,7 +1,7 @@
 <?php
 
-include('crud.php');
-Mysql::junio();
+include('Mysql.php');
+junio::conectar();
 
 ?>
 
