@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Enviado com sucesso</h1>
+    <h1>Enviado com Sucesso</h1>
 </body>
 </html>
 
@@ -20,8 +20,8 @@ $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
 //echo "Nome: $nome <br>";
 //echo "Email: $email <br>";
 
-$result_usuario = "INSERT INTO formulario(nome, email, criado) VALUES ('$nome', '$email', NOW ())";
-$resultado_usuario = mysqli_query($conn, $result_usuario);
+$result_formulario = "INSERT INTO formulario(nome, email, criado) VALUES ('$nome', '$email', NOW ())";
+$resultado_formulario = mysqli_query($conn, $result_formulario);
 
 
 

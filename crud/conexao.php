@@ -1,8 +1,8 @@
 <?php
 $servidor ="localhost";
-$usuario ="root";
+$formulario ="root";
 $senha ="";
 $dbname ="junin";
 
-$conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
+$conn = mysqli_connect($servidor, $formulario, $senha, $dbname);
 ?>
