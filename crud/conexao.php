@@ -2,7 +2,7 @@
 $servidor ="localhost";
 $formulario ="root";
 $senha ="";
-$dbname ="junin";
+$dbname ="cadastramento";
 
 $conn = mysqli_connect($servidor, $formulario, $senha, $dbname);
 ?>
